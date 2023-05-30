@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView1"
+            android:background="#999">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$74"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="per night"
+                android:textColor="#fff"
+                android:textSize="13sp">
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="the beach is but short walk away"
+                android:textSize="24sp"
+                android:gravity="center"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Gunakan masukan di atas untuk mencari kamus bahasa Indonesia-bahasa Inggris dan masukkan kata untuk diterjemahkan dalam bahasa Inggris. Dengan pengaturan hasil yang ada akan mudah untuk menemukan kata yang tepat dalam bahasa Inggris. Bagian lainnya yang berbeda ditandai dengan terjemahan, sinonim, contoh kalimat dan juga forum. Anda juga bisa mencari kata dalam bahasa Inggris. Jika anda ingin mencari kamus online kami gunakan menu jatuh yang ada untuk memilih.
+                                   Cari kamus bahasa Indonesiaa-bahasa Inggris dengan huruf Mungkin anda tidak tahu ejaan kata dalam bahasa Indonesia yang tepat. Jika iya anda akan menemukan huruf-huruf yang akan membantu anda untuk mencari kata dalam bahasa Indonesia yang dimulai dengan huruf tersebut. Dengan memilih satu kata dalam daftar anda akan diarahkan langsung ke halaman yang ada terjemahan bahasa Inggris nya.U.S. News World Report ranks the best hotels in California based on an analysis of industry awards, hotel star ratings and user ratings. Hotels that scored in the top 10% of the Best Hotels in USA earned a Gold badge. Hotels that scored in the top 30% of the Best Hotels in California earned a Silver badge. Hotels that appear after ranked hotels are sorted by hotel class and then by user rating, as provided by Tripadvisor."></TextView>
+            </LinearLayout>
+        </ScrollView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:text="Book Now !!"></Button>
+</LinearLayout>
